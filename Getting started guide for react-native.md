@@ -36,7 +36,7 @@ If everything is set up correctly, you should see your new app running in your A
 
 Now that you have created your app you can go open your one of the favorite JavaScript supportable IDE and open App.js file inside your application. To create a simple hello world application we can replace the code in App.js with the simple code below.
 
-```
+```javascript
 import React from 'react';
 import {View,Text} from 'react-native';
 
@@ -48,7 +48,7 @@ const App = () => (
 ```
 As we can see we have a view container containing a Text container which holds the Hello World string. In your Android emulator we can also see that it is rendered in the top left corner of our app. To center this string we can use [flexbox](https://reactnative.dev/docs/flexbox). With the simple addition to our code below the string is centered.
 
-```
+```javascript
 <View style={{justifyContent: 'center', alignItems: 'center'}}>
     <Text>Hello World</Text>
 </View>
@@ -67,7 +67,7 @@ npm install --save react-navigation
 
 Then you can create two screens in your App.js with the following code
 
-```
+```javascript
 import * as React from 'react';
 import { View, Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
@@ -108,7 +108,7 @@ We have now created a native stack navigator which contains 2 properties, *Scree
 
 Our stack has 2 routes, *Home* and *Other*. These are our 2 screens which is small for now but as the application grows so does the number of screens and routes. If we want to navigate from our home screen to our other screen we can use the simple code below.
 
-```
+```javascript
 function HomeScreen({ navigation }) {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
@@ -127,7 +127,7 @@ We now have simple navigation in our app. To see more ways to navigate feel free
 
 React allows us to track a state in a component of our app using hooks. One of the most common hooks is the React useState Hook. With this we can create a simple function that gives us a clickable button that keeps track of how many times it has been clicked, see code below.
 
-```
+```javascript
 import React, { useState } from 'react';
 
 function Example() {
@@ -148,7 +148,7 @@ When the button is clicked the function is triggered and re-renders which displa
 
 One of the other most common hooks is the useEffect hook. This hook allows us to add a listener for when our *count* is updated. The code below shows how it is used.
 
-```
+```javascript
 import React, { useState, useEffect } from 'react';
 
 function Example() {
