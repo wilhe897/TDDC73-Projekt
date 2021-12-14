@@ -176,4 +176,4 @@ Now, everytime the button is clicked and our component is re-rendered our docume
 To learn more about hooks and how they can be used, browse the docs [here](https://reactjs.org/docs/hooks-intro.html).
 
 
-You have now read this entire starting guide. Hopefully you now have som "kött på benen" as we would say in sweden and feel ready to start creating your own awesome projects!
+**You have now read this entire starting guide. Hopefully you now have som "kött på benen" as we would say in sweden and feel ready to start creating your own awesome projects!**
