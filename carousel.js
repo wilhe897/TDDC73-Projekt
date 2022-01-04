@@ -1,7 +1,6 @@
 /* eslint-disable prettier/prettier */
 import React,{useState,useEffect} from 'react';
-import {Text, StyleSheet, View,FlatList,Image,TouchableOpacity} from 'react-native';
-import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
+import {Text, StyleSheet, View,Icon,FlatList,Image,TouchableOpacity} from 'react-native';
 import {faArrowLeft, faArrowRight} from '@fortawesome/free-solid-svg-icons';
 import PropTypes from 'prop-types';
 const Carousel = (props) => {
@@ -51,11 +50,7 @@ function handleClick(temp) {
                 handleClick(-1);
               }}>
                 <View>
-                  <FontAwesomeIcon
-                    icon={faArrowLeft}
-                    size={32}
-                    color={'black'}
-                  />
+                  <Text>{'<'}</Text>
                 </View>
               </TouchableOpacity>
               <View style={styles.header}>{dots}</View>
@@ -65,11 +60,7 @@ function handleClick(temp) {
                 handleClick(1);
               }}>
                 <View>
-                  <FontAwesomeIcon
-                    icon={faArrowRight}
-                    size={32}
-                    color={'black'}
-                  />
+                  <Text>{'>'}</Text>
                 </View>
               </TouchableOpacity>
             </View>

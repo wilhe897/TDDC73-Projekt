@@ -10,13 +10,10 @@
 import React,{useState} from 'react';
 import PasswordStrengthMeter from './PasswordStrengthMeter';
 import Carousel from './carousel';
-import type {Node} from 'react';
 import {
   SafeAreaView,
-  ScrollView,
   StatusBar,
   StyleSheet,
-  Colors,
   View,
 } from 'react-native';
 
@@ -94,12 +91,11 @@ const App: () => Node = () => {
           value={password}
           onChangeText={text => setpassword(text)}
           minChar={6}
-          security={'max'}
           />
         </View>
         <View style={styles.carousel}>
          <Carousel
-         itemsperpage={3}
+         itemsperpage={4}
          data={DATA}
          />
          </View>

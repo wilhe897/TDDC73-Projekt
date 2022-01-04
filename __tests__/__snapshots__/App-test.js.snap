@@ -1,0 +1,1171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing <Carousel /> renders correct 1`] = `
+<View>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+          "image": "https://catalog.cinema-api.com/cf/images/ncg-images/2ce7f7c16a6e49da8183bc04a72c153b.jpg?width=240&version=303B0367C7ED1C0D9B2103C7E4E55BD0&format=webp",
+          "name": "Dune",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={true}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "opacity": 1,
+              "width": 175,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://catalog.cinema-api.com/cf/images/ncg-images/2ce7f7c16a6e49da8183bc04a72c153b.jpg?width=240&version=303B0367C7ED1C0D9B2103C7E4E55BD0&format=webp",
+              }
+            }
+            style={
+              Object {
+                "height": 215,
+                "width": 145,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "alignItems": "center",
+                "color": "black",
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "textAlign": "center",
+              }
+            }
+          >
+            Dune
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View>
+        <Text>
+          &lt;
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "paddingTop": 10,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={false}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "green",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "opacity": 1,
+            "width": 15,
+          }
+        }
+      />
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "opacity": 1,
+            "width": 15,
+          }
+        }
+      />
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "opacity": 1,
+            "width": 15,
+          }
+        }
+      />
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "opacity": 1,
+            "width": 15,
+          }
+        }
+      />
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "opacity": 1,
+            "width": 15,
+          }
+        }
+      />
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "opacity": 1,
+            "width": 15,
+          }
+        }
+      />
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "opacity": 1,
+            "width": 15,
+          }
+        }
+      />
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "opacity": 1,
+            "width": 15,
+          }
+        }
+      />
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "opacity": 1,
+            "width": 15,
+          }
+        }
+      />
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "opacity": 1,
+            "width": 15,
+          }
+        }
+      />
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "opacity": 1,
+            "width": 15,
+          }
+        }
+      />
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "opacity": 1,
+            "width": 15,
+          }
+        }
+      />
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View>
+        <Text>
+          &gt;
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`testing <Carousel /> with Enzyme renders different items per page 1`] = `
+<View>
+  <FlatList
+    data={
+      Array [
+        Object {
+          "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+          "image": "https://catalog.cinema-api.com/cf/images/ncg-images/2ce7f7c16a6e49da8183bc04a72c153b.jpg?width=240&version=303B0367C7ED1C0D9B2103C7E4E55BD0&format=webp",
+          "name": "Dune",
+        },
+      ]
+    }
+    horizontal={true}
+    keyExtractor={[Function]}
+    renderItem={[Function]}
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <TouchableOpacity
+      onPress={[Function]}
+    >
+      <View>
+        <Text>
+          &lt;
+        </Text>
+      </View>
+    </TouchableOpacity>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "paddingTop": 10,
+        }
+      }
+    >
+      <TouchableOpacity
+        key="0"
+        style={
+          Object {
+            "backgroundColor": "green",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "width": 15,
+          }
+        }
+      />
+      <TouchableOpacity
+        key="1"
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "width": 15,
+          }
+        }
+      />
+      <TouchableOpacity
+        key="2"
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "width": 15,
+          }
+        }
+      />
+      <TouchableOpacity
+        key="3"
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "width": 15,
+          }
+        }
+      />
+      <TouchableOpacity
+        key="4"
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "width": 15,
+          }
+        }
+      />
+      <TouchableOpacity
+        key="5"
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "width": 15,
+          }
+        }
+      />
+      <TouchableOpacity
+        key="6"
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "width": 15,
+          }
+        }
+      />
+      <TouchableOpacity
+        key="7"
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "width": 15,
+          }
+        }
+      />
+      <TouchableOpacity
+        key="8"
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "width": 15,
+          }
+        }
+      />
+      <TouchableOpacity
+        key="9"
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "width": 15,
+          }
+        }
+      />
+      <TouchableOpacity
+        key="10"
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "width": 15,
+          }
+        }
+      />
+      <TouchableOpacity
+        key="11"
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "width": 15,
+          }
+        }
+      />
+    </View>
+    <TouchableOpacity
+      onPress={[Function]}
+    >
+      <View>
+        <Text>
+          &gt;
+        </Text>
+      </View>
+    </TouchableOpacity>
+  </View>
+</View>
+`;
+
+exports[`testing <Carousel /> with Enzyme renders different items per page 2`] = `
+<View>
+  <FlatList
+    data={
+      Array [
+        Object {
+          "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+          "image": "https://catalog.cinema-api.com/cf/images/ncg-images/2ce7f7c16a6e49da8183bc04a72c153b.jpg?width=240&version=303B0367C7ED1C0D9B2103C7E4E55BD0&format=webp",
+          "name": "Dune",
+        },
+        Object {
+          "id": "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
+          "image": "https://d2iltjk184xms5.cloudfront.net/uploads/photo/file/415916/7a24b54c4b992e4fbd85d6ec0912880d-batman_ver3.jpg",
+          "name": "Batman",
+        },
+      ]
+    }
+    horizontal={true}
+    keyExtractor={[Function]}
+    renderItem={[Function]}
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <TouchableOpacity
+      onPress={[Function]}
+    >
+      <View>
+        <Text>
+          &lt;
+        </Text>
+      </View>
+    </TouchableOpacity>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "paddingTop": 10,
+        }
+      }
+    >
+      <TouchableOpacity
+        key="0"
+        style={
+          Object {
+            "backgroundColor": "green",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "width": 15,
+          }
+        }
+      />
+      <TouchableOpacity
+        key="1"
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "width": 15,
+          }
+        }
+      />
+      <TouchableOpacity
+        key="2"
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "width": 15,
+          }
+        }
+      />
+      <TouchableOpacity
+        key="3"
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "width": 15,
+          }
+        }
+      />
+      <TouchableOpacity
+        key="4"
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "width": 15,
+          }
+        }
+      />
+      <TouchableOpacity
+        key="5"
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "width": 15,
+          }
+        }
+      />
+    </View>
+    <TouchableOpacity
+      onPress={[Function]}
+    >
+      <View>
+        <Text>
+          &gt;
+        </Text>
+      </View>
+    </TouchableOpacity>
+  </View>
+</View>
+`;
+
+exports[`testing <Carousel /> with Enzyme renders different items per page 3`] = `
+<View>
+  <FlatList
+    data={
+      Array [
+        Object {
+          "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+          "image": "https://catalog.cinema-api.com/cf/images/ncg-images/2ce7f7c16a6e49da8183bc04a72c153b.jpg?width=240&version=303B0367C7ED1C0D9B2103C7E4E55BD0&format=webp",
+          "name": "Dune",
+        },
+        Object {
+          "id": "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
+          "image": "https://d2iltjk184xms5.cloudfront.net/uploads/photo/file/415916/7a24b54c4b992e4fbd85d6ec0912880d-batman_ver3.jpg",
+          "name": "Batman",
+        },
+        Object {
+          "id": "58694a0f-3da1-471f-bc96-145571e29d72",
+          "image": "https://sfanytime-images-prod.secure.footprint.net/COVERM/4879ca25-d6e3-48c1-a012-a3e700a022a2_COVERM_01.jpg?w=375&fm=pjpg&s=36e6fd6d333c2fe6bd9e9dc3d1a1844b",
+          "name": "Interstellar",
+        },
+      ]
+    }
+    horizontal={true}
+    keyExtractor={[Function]}
+    renderItem={[Function]}
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <TouchableOpacity
+      onPress={[Function]}
+    >
+      <View>
+        <Text>
+          &lt;
+        </Text>
+      </View>
+    </TouchableOpacity>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "paddingTop": 10,
+        }
+      }
+    >
+      <TouchableOpacity
+        key="0"
+        style={
+          Object {
+            "backgroundColor": "green",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "width": 15,
+          }
+        }
+      />
+      <TouchableOpacity
+        key="1"
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "width": 15,
+          }
+        }
+      />
+      <TouchableOpacity
+        key="2"
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "width": 15,
+          }
+        }
+      />
+      <TouchableOpacity
+        key="3"
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "width": 15,
+          }
+        }
+      />
+    </View>
+    <TouchableOpacity
+      onPress={[Function]}
+    >
+      <View>
+        <Text>
+          &gt;
+        </Text>
+      </View>
+    </TouchableOpacity>
+  </View>
+</View>
+`;
+
+exports[`testing <Carousel /> with Enzyme renders different items per page 4`] = `
+<View>
+  <FlatList
+    data={
+      Array [
+        Object {
+          "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+          "image": "https://catalog.cinema-api.com/cf/images/ncg-images/2ce7f7c16a6e49da8183bc04a72c153b.jpg?width=240&version=303B0367C7ED1C0D9B2103C7E4E55BD0&format=webp",
+          "name": "Dune",
+        },
+        Object {
+          "id": "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
+          "image": "https://d2iltjk184xms5.cloudfront.net/uploads/photo/file/415916/7a24b54c4b992e4fbd85d6ec0912880d-batman_ver3.jpg",
+          "name": "Batman",
+        },
+        Object {
+          "id": "58694a0f-3da1-471f-bc96-145571e29d72",
+          "image": "https://sfanytime-images-prod.secure.footprint.net/COVERM/4879ca25-d6e3-48c1-a012-a3e700a022a2_COVERM_01.jpg?w=375&fm=pjpg&s=36e6fd6d333c2fe6bd9e9dc3d1a1844b",
+          "name": "Interstellar",
+        },
+        Object {
+          "id": "bd7akbea-c1b1-46c2-aed5-3ad53abb28ba",
+          "image": "https://media.ginza.se/Images/item_img_1200/315352.jpg",
+          "name": "Min Granne Totoro",
+        },
+        Object {
+          "id": "3ac68afc-c605-48d3-a4f8-fbd91sd97f63",
+          "image": "https://sfanytime-images-prod.secure.footprint.net/COVERM/COVERM_66ad1f7c-8cdd-4909-8584-963ee680e7e4_sv.jpg?w=375&fm=pjpg&s=69ac3d27219503d66d0fb8474e09a516",
+          "name": "Rädda Willy",
+        },
+        Object {
+          "id": "58694a0f-3da1-471f-bc96-14557ds29d72",
+          "image": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+          "name": "The Godfather",
+        },
+      ]
+    }
+    horizontal={true}
+    keyExtractor={[Function]}
+    renderItem={[Function]}
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <TouchableOpacity
+      onPress={[Function]}
+    >
+      <View>
+        <Text>
+          &lt;
+        </Text>
+      </View>
+    </TouchableOpacity>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "paddingTop": 10,
+        }
+      }
+    >
+      <TouchableOpacity
+        key="0"
+        style={
+          Object {
+            "backgroundColor": "green",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "width": 15,
+          }
+        }
+      />
+      <TouchableOpacity
+        key="1"
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "width": 15,
+          }
+        }
+      />
+    </View>
+    <TouchableOpacity
+      onPress={[Function]}
+    >
+      <View>
+        <Text>
+          &gt;
+        </Text>
+      </View>
+    </TouchableOpacity>
+  </View>
+</View>
+`;
+
+exports[`testing <Carousel /> with Enzyme renders different items per page 5`] = `
+<View>
+  <FlatList
+    data={
+      Array [
+        Object {
+          "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+          "image": "https://catalog.cinema-api.com/cf/images/ncg-images/2ce7f7c16a6e49da8183bc04a72c153b.jpg?width=240&version=303B0367C7ED1C0D9B2103C7E4E55BD0&format=webp",
+          "name": "Dune",
+        },
+        Object {
+          "id": "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
+          "image": "https://d2iltjk184xms5.cloudfront.net/uploads/photo/file/415916/7a24b54c4b992e4fbd85d6ec0912880d-batman_ver3.jpg",
+          "name": "Batman",
+        },
+        Object {
+          "id": "58694a0f-3da1-471f-bc96-145571e29d72",
+          "image": "https://sfanytime-images-prod.secure.footprint.net/COVERM/4879ca25-d6e3-48c1-a012-a3e700a022a2_COVERM_01.jpg?w=375&fm=pjpg&s=36e6fd6d333c2fe6bd9e9dc3d1a1844b",
+          "name": "Interstellar",
+        },
+        Object {
+          "id": "bd7akbea-c1b1-46c2-aed5-3ad53abb28ba",
+          "image": "https://media.ginza.se/Images/item_img_1200/315352.jpg",
+          "name": "Min Granne Totoro",
+        },
+        Object {
+          "id": "3ac68afc-c605-48d3-a4f8-fbd91sd97f63",
+          "image": "https://sfanytime-images-prod.secure.footprint.net/COVERM/COVERM_66ad1f7c-8cdd-4909-8584-963ee680e7e4_sv.jpg?w=375&fm=pjpg&s=69ac3d27219503d66d0fb8474e09a516",
+          "name": "Rädda Willy",
+        },
+        Object {
+          "id": "58694a0f-3da1-471f-bc96-14557ds29d72",
+          "image": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+          "name": "The Godfather",
+        },
+        Object {
+          "id": "bd7acbea-c1b1-46c2-aed5-3ad53ewrb28ba",
+          "image": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+          "name": "Joker",
+        },
+        Object {
+          "id": "3ac68afc-c605-48d3-a4f8-dsafd91aa97f63",
+          "image": "https://musicart.xboxlive.com/7/dbd31000-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
+          "name": "Jaws",
+        },
+      ]
+    }
+    horizontal={true}
+    keyExtractor={[Function]}
+    renderItem={[Function]}
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <TouchableOpacity
+      onPress={[Function]}
+    >
+      <View>
+        <Text>
+          &lt;
+        </Text>
+      </View>
+    </TouchableOpacity>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "paddingTop": 10,
+        }
+      }
+    >
+      <TouchableOpacity
+        key="0"
+        style={
+          Object {
+            "backgroundColor": "green",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "width": 15,
+          }
+        }
+      />
+      <TouchableOpacity
+        key="1"
+        onPress={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "borderRadius": 50,
+            "height": 15,
+            "margin": 10,
+            "marginBottom": 20,
+            "width": 15,
+          }
+        }
+      />
+    </View>
+    <TouchableOpacity
+      onPress={[Function]}
+    >
+      <View>
+        <Text>
+          &gt;
+        </Text>
+      </View>
+    </TouchableOpacity>
+  </View>
+</View>
+`;
